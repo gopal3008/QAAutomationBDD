@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="67.52068">
+<testcase classname="QAAugomtaionPageLogin" name="QAAutomationHomePageCheck" time="67.52068">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;Login -[]My Store&gt; but was:&lt;Login -[ ]My Store&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinitions.LoginStepDefinition.user_is_on_signInPage(LoginStepDefinition.java:40)&#13;&#10;&#9;at ✽.And User is on signInPage(/Users/gopal/workspace/AutomationQAPageBDD/src/main/java/Features/Login.feature:8)&#13;&#10;"><![CDATA[Given User is on QAAutomationHomePage.......................................passed
+When Title of the page is my store..........................................passed
+Then User clicks on Sign Button.............................................passed
+And User is on signInPage...................................................failed
+Then Close the browser......................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<Login -[]My Store> but was:<Login -[ ]My Store>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinitions.LoginStepDefinition.user_is_on_signInPage(LoginStepDefinition.java:40)
+	at ✽.And User is on signInPage(/Users/gopal/workspace/AutomationQAPageBDD/src/main/java/Features/Login.feature:8)
+]]></failure>
+</testcase>
+</testsuite>

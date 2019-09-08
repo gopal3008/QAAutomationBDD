@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "QAAutomationHomePageCheck",
+        "description": "",
+        "id": "qaaugomtaionpagelogin;qaautomationhomepagecheck",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63527588998,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on QAAutomationHomePage",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23419434,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of the page is my store",
+            "match": {
+              "location": "LoginStepDefinition.homePageTitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3903531099,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Sign Button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_Sign_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66140057,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cLogin -[]My Store\u003e but was:\u003cLogin -[ ]My Store\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinitions.LoginStepDefinition.user_is_on_signInPage(LoginStepDefinition.java:40)\r\n\tat ✽.And User is on signInPage(/Users/gopal/workspace/AutomationQAPageBDD/src/main/java/Features/Login.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User is on signInPage",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_signInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "QAAugomtaionPageLogin",
+    "description": "",
+    "id": "qaaugomtaionpagelogin",
+    "keyword": "Feature",
+    "uri": "/Users/gopal/workspace/AutomationQAPageBDD/src/main/java/Features/Login.feature"
+  }
+]
